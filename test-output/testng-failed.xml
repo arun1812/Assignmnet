@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [ImpactGuru]">
+  <listeners>
+    <listener class-name="Utility.Listener"/>
+  </listeners>
+  <test name="Test(failed)">
+    <classes>
+      <class name="Testcase.PaymentTest">
+        <methods>
+          <include name="TearDown"/>
+          <include name="setpage"/>
+        </methods>
+      </class> <!-- Testcase.PaymentTest -->
+      <class name="Testcase.LoginPageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="TearDown"/>
+          <include name="LoginPageTitleTest"/>
+        </methods>
+      </class> <!-- Testcase.LoginPageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [ImpactGuru] -->
